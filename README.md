@@ -64,6 +64,7 @@ Add these to your `.zshrc` or use the `tmux.aliases` file included:
 alias tattach='tmux -u attach -t'
 alias tmux_conf='vim ~/tmux-conf/.tmux.conf.local'
 alias tnew='tmux -u new -s'
+alias reload_tmux="tmux source ~/oh-my-tmux/.tmux.conf"
 alias tkill='tmux kill-server'
 ```
 
